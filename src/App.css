@@ -10,11 +10,12 @@ body {
 .Mainsection{
   width: 100%;
   height: 100vh;
-  /* background: linear-gradient(to right, rgb(29, 9, 23) 0%, rgb(45, 14, 39) 11%, rgb(65, 20, 60) 22%, rgb(77, 25, 76) 33%, rgb(76, 25, 81) 44%, rgb(64, 22, 75) 55%, rgb(43, 16, 58) 66%, rgb(24, 10, 39) 77%, rgb(12, 6, 24) 88%, rgb(6, 3, 14) 100%); */
-  background: linear-gradient(to right, white, skyblue);
+  background: linear-gradient(to right, rgb(29, 9, 23) 0%, rgb(45, 14, 39) 11%, rgb(65, 20, 60) 22%, rgb(77, 25, 76) 33%, rgb(76, 25, 81) 44%, rgb(64, 22, 75) 55%, rgb(43, 16, 58) 66%, rgb(24, 10, 39) 77%, rgb(12, 6, 24) 88%, rgb(6, 3, 14) 100%);
   display: flex;
   flex-direction: column;
+  gap: 20px;
   align-items: center;
+  overflow: scroll;
 }
 .header{
   width: 100%;
@@ -80,15 +81,16 @@ body {
   
 }
 .footer{
-  position: absolute;
+  position: relative;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70px;
+  height: 100px;
   background-color: black;
   bottom: 0px;
   margin-bottom: 0px;
+
 }
 .footer span{
   color: white;
@@ -116,6 +118,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  color:white;
 }
 .counter .inc-dec-btns{
   display: flex;
@@ -129,6 +132,7 @@ body {
   color: white;
 }
 .counter-reducer{
+  color:white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -148,18 +152,25 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  color: white;
+  margin: 20px;
 }
 .q8useref{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  gap: 20px;
 }
 .form-validation table{
   padding: 10px;
   margin: 20px;
 }
 .form-validation{
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -171,4 +182,17 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+.lifecycleDemo{
+  padding: 50px;
+  border: 2px solid white;
+  color: white;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.childbox{
+  color: white;
 }

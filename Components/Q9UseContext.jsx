@@ -1,5 +1,6 @@
-import { ThemeContext, getThemeStyles } from "./Q9MainContext";
+import { ThemeContext, getThemeStyles } from "../Components/ThemeContext";
 import { useContext } from "react";
+
 export const Q9UseContext = () => {
   const darkTheme = useContext(ThemeContext);
   return (
